@@ -9,7 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+        android:paddingBottom="19dp"
+        android:paddingTop="19dp">
 
         <EditText
             android:id="@+id/editTextAmount"
@@ -28,18 +32,27 @@
             android:id="@+id/buttonCalculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:backgroundTint="#2C2B2B"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:text="Calcular" />
 
         <Button
             android:id="@+id/buttonClear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#2C2B2B"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:text="Limpiar" />
 
         <Button
             android:id="@+id/buttonClose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#61666C"
+            android:textSize="18dp"
             android:text="Cerrar" />
 
         <TextView

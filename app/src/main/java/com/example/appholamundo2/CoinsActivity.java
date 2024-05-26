@@ -56,6 +56,12 @@ public class CoinsActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
     }
 
     private void calculateConversion() {
@@ -91,12 +97,7 @@ public class CoinsActivity extends AppCompatActivity {
         editTextAmount.setText("");
         spinnerCurrency.setSelection(0);
         textViewResult.setText("Resultado");
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
     }
+
 }
 
