@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView lblSaludo;
     private EditText txtSaludo;
-    private Button btnPulsame,btnLimpiar,btnCerrar;
+    private Button btnPulsame, btnLimpiar, btnCerrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 lblSaludo.setText("");
             }
         });
-        //condificar cerrar
+        //codificar cerrar
         btnCerrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
