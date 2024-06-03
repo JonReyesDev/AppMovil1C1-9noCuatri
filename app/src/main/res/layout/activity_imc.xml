@@ -34,7 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:hint="Escribe tu peso en KG"></EditText>
+            android:hint="Escribe tu peso en KG"
+            android:inputType="number"></EditText>
 
         <EditText
             android:id="@+id/txtAltura"
@@ -42,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:gravity="center"
-            android:hint="Escribe tu altura en metros">
+            android:hint="Escribe tu altura en metros"
+            android:inputType="numberDecimal">
 
         </EditText>
 

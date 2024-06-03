@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Seleccione una categoria"
+            android:text="Seleccione una opcion"
             android:textStyle="italic"
             android:textSize="22dp"
             android:paddingBottom="50dp">
