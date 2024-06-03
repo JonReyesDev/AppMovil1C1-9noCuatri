@@ -7,8 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".CotizacionActivity">
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -28,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="Cliente Nombre"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:textStyle="italic"
             android:layout_gravity="center"
             android:padding="8dp"
             android:id="@+id/txtNombreCliente"/>
@@ -45,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:hint="Valor del automóvil"
+            android:hint="Precio del automóvil"
             android:inputType="numberDecimal"/>
 
         <EditText
@@ -98,36 +96,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/button_background"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#2C2B2B"
+                android:elevation="4dp"
                 android:padding="16dp"
                 android:text="Calcular"
                 android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:elevation="4dp"
-                android:layout_marginRight="5dp"/>
+                android:textSize="18sp" />
+
             <Button
                 android:id="@+id/btnLimpiar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/button_background"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#2C2B2B"
+                android:elevation="4dp"
                 android:padding="16dp"
                 android:text="Limpiar"
                 android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:elevation="4dp"
-                android:layout_marginRight="5dp"/>
+                android:textSize="18sp" />
+
             <Button
                 android:id="@+id/btnCerrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/button_background"
+                android:backgroundTint="#61666C"
+                android:elevation="4dp"
                 android:padding="16dp"
                 android:text="Cerrar"
                 android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:elevation="4dp"/>
+                android:textSize="18sp" />
         </LinearLayout>
 
         <TextView
@@ -135,6 +135,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pago inicial: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
             android:layout_marginTop="16dp"/>
 
         <TextView
@@ -142,12 +144,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pago mensual: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
             android:layout_marginTop="8dp"/>
         <TextView
             android:id="@+id/folioTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Folio: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
             android:layout_marginTop="8dp"/>
     </LinearLayout>
 
