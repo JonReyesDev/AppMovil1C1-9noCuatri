@@ -6,4 +6,20 @@
         <item>Dólar Canadiense</item>
         <item>Libra Esterlina</item>
     </string-array>
+
+    <string name="itemsFrappses">Categorias Frappses</string>
+    <string name="itemsAgradecimiento">Agradecimiento</string>
+    <string name="itemsAmor">Amor</string>
+    <string name="itemsNewYear">Año Nuevo</string>
+    <string name="itemsCanciones">Canciones</string>
+
+    <string name="msgFrapses">Desplegar</string>
+    <string name="msgAgradecimientos">Prueba dar las gracias</string>
+    <string name="msgAmor">Enamora con estas frases</string>
+    <string name="msgNewYear">Felicita el año nuevo</string>
+    <string name="msgCanciones">Escucha solo lo mejor</string>
+    <string name="msgSeleccionado">Se ha seleccionado</string>
+
+    <string name="Descripcion">Seleccione una categoria</string>
+
 </resources>
